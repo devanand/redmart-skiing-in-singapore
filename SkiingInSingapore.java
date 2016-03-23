@@ -7,7 +7,14 @@ import java.io.PrintWriter;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
-
+/**
+ * 
+ * Skiing in Singapore Solution
+ * Problem solution to RedMart's programming challenge, written with modified BFS implementation. 
+ * 
+ * @author Ignatius
+ *
+ */
 public class SkiingInSingapore {
 
 	/**
