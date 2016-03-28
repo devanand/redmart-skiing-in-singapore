@@ -69,8 +69,8 @@ public class SkiingInSingapore {
 			while (!(queue.isEmpty())){
 				int currentVertex = queue.poll();
 				//translate to xy to check with map
-				int x = currentVertex % height;
-				int y = currentVertex / height;
+				int x = currentVertex % width;
+				int y = currentVertex / width;
 				
 				SlopeStats slopeStatsAtCurrent = vertexSlopeStatistics[currentVertex];
 				
